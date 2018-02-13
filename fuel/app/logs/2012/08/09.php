@@ -1,0 +1,28 @@
+<?php defined('COREPATH') or exit('No direct script access allowed'); ?>
+
+Error - 2012-08-09 10:01:40 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 5
+Error - 2012-08-09 10:01:40 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 45
+Error - 2012-08-09 10:01:52 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 5
+Error - 2012-08-09 10:01:52 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 45
+Error - 2012-08-09 10:05:09 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 5
+Error - 2012-08-09 10:05:09 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 45
+Error - 2012-08-09 10:08:33 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 5
+Error - 2012-08-09 10:08:33 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 45
+Error - 2012-08-09 10:14:27 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 5
+Error - 2012-08-09 10:14:27 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 45
+Error - 2012-08-09 10:20:02 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 5
+Error - 2012-08-09 10:20:02 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 45
+Error - 2012-08-09 10:34:56 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 5
+Error - 2012-08-09 10:34:56 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 45
+Error - 2012-08-09 10:48:20 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 5
+Error - 2012-08-09 10:48:20 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 45
+Error - 2012-08-09 10:48:54 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 5
+Error - 2012-08-09 10:48:54 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 45
+Error - 2012-08-09 10:49:11 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 5
+Error - 2012-08-09 10:49:11 --> 8 - Undefined variable: title in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/app/views/404.php on line 45
+Error - 2012-08-09 10:51:33 --> 2002 - SQLSTATE[HY000] [2002] Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2) in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/core/classes/database/pdo/connection.php on line 86
+Error - 2012-08-09 10:55:09 --> 1045 - SQLSTATE[28000] [1045] Access denied for user 'sowib72'@'boscgi1705.eigbox.net' (using password: YES) in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/core/classes/database/pdo/connection.php on line 86
+Error - 2012-08-09 10:55:22 --> 1045 - SQLSTATE[28000] [1045] Access denied for user 'sowib72'@'boscgi1702.eigbox.net' (using password: YES) in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/core/classes/database/pdo/connection.php on line 86
+Error - 2012-08-09 11:03:27 --> 1045 - SQLSTATE[28000] [1045] Access denied for user 'jobsite'@'boscgi1703.eigbox.net' (using password: YES) in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/core/classes/database/pdo/connection.php on line 86
+Error - 2012-08-09 11:03:42 --> 1045 - SQLSTATE[28000] [1045] Access denied for user 'jobsite'@'boscgi1703.eigbox.net' (using password: YES) in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/core/classes/database/pdo/connection.php on line 86
+Error - 2012-08-09 11:05:03 --> Error - SQLSTATE[42S22]: Column not found: 1054 Unknown column 't0.vues' in 'field list' with query: "SELECT `t0`.`idOffre` AS `t0_c0`, `t0`.`titre` AS `t0_c1`, `t0`.`pays` AS `t0_c2`, `t0`.`type_contrat` AS `t0_c3`, `t0`.`fonction` AS `t0_c4`, `t0`.`experience` AS `t0_c5`, `t0`.`description` AS `t0_c6`, `t0`.`fichier` AS `t0_c7`, `t0`.`date_debut` AS `t0_c8`, `t0`.`date_fin` AS `t0_c9`, `t0`.`ville` AS `t0_c10`, `t0`.`idRecruteur` AS `t0_c11`, `t0`.`vues` AS `t0_c12` FROM `offre` AS `t0` ORDER BY `t0`.`idOffre` ASC, `t0`.`idOffre` ASC LIMIT 6" in /hermes/bosweb/web069/b694/sl.sowib72/public_html/guineewebdev/preprod/jobsite/fuel/core/classes/database/pdo/connection.php on line 137

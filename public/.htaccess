@@ -1,0 +1,45 @@
+
+RewriteEngine on
+#RewriteOptions inherit
+#<IfModule mod_rewrite.c>
+ #   RewriteEngine on
+
+  #  RewriteCond %{REQUEST_FILENAME} !-f
+   # RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+#RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+#RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+ #   RewriteRule ^(.*)$ index.php?/$1 [L]
+#</IfModule>
+
+#Redirection de l'ancien nom de domaine
+RewriteCond %{HTTP_HOST}   ^www.guinee-emploi.com/offre [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule ^/?(.*)         https://www.piaafrica.com/emploi [L,R=301]
+RewriteCond %{HTTP_HOST}   ^guinee-emploi.com/offre [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule ^/?(.*)         https://www.piaafrica.com/emploi [L,R=301]
+RewriteCond %{HTTP_HOST}   ^guinee-emploi.com [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule ^/?(.*)         https://www.piaafrica.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST}   ^www.guinee-emploi.com [NC]
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule ^/?(.*)         https://www.piaafrica.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} ^guinee\-emploi\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.guinee\-emploi\.com$
+RewriteCond %{REQUEST_URI} !^/[0-9]+\..+\.cpaneldcv$
+RewriteCond %{REQUEST_URI} !^/[A-F0-9]{32}\.txt(?:\ Comodo\ DCV)?$
+RewriteCond %{REQUEST_URI} !^/\.well-known/acme-challenge/[0-9a-zA-Z_-]+$
+RewriteRule ^contact$ "https\:\/\/piaafrica\.com\/nous\-contacter" [R=301,L]
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# This domain inherits the “PHP” package.
+# php -- END cPanel-generated handler, do not edit

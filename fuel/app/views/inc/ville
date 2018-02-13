@@ -1,0 +1,150 @@
+
+function getVille(ville) {
+   var country = ville;
+   v = '';
+   switch (country) {
+
+      case 1 :
+         v = 'Conakry';
+         break;
+      case 2 :
+         v = 'Beyla';
+         break;
+      case 3 :
+         v = 'Boffa';
+         break;
+      case 4 :
+         v = 'Boké';
+         break;
+      case 5 :
+         v = 'Coyah';
+         break;
+      case 6 :
+         v = 'Dabola';
+         break;
+      case 7 :
+         v = 'Dalaba';
+         break;
+      case 8 :
+         v = 'Dinguiraye';
+         break;
+      case 9 :
+         v = 'Dubréka';
+         break;
+      case 10 :
+         v = 'Faranah';
+         break;
+      case 11 :
+         v = 'Forécariah';
+         break;
+      case 12 :
+         v = 'Fria';
+         break;
+      case 13 :
+         v = 'Gaoual';
+         break;
+      case 14 :
+         v = 'Guékédou';
+         break;
+      case 15 :
+         v = 'Kankan';
+         break;
+      case 16 :
+         v = 'Kérouané';
+         break;
+      case 17 :
+         v = 'Kindia';
+         break;
+      case 18 :
+         v = 'Kissidougou';
+         break;
+      case 19 :
+         v = 'Koubia';
+         break;
+      case 20 :
+         v = 'Koundara';
+         break;
+      case 21 :
+         v = 'Kouroussa';
+         break;
+      case 22 :
+         v = 'Labé';
+         break;
+      case 23 :
+         v = 'Lelouma';
+         break;
+      case 24 :
+         v = 'Lola';
+         break;
+      case 25 :
+         v = 'Macenta';
+         break;
+      case 26 :
+         v = 'Mali';
+         break;
+      case 27 :
+         v = 'Mamou';
+         break;
+      case 28 :
+         v = 'Mandiana';
+         break;
+      case 29 :
+         v = 'N\'Zérékoré';
+         break;
+      case 30 :
+         v = 'Pita';
+         break;
+      case 31 :
+         v = 'Siguiri';
+         break;
+      case 32 :
+         v = 'Télimélé';
+         break;
+      case 33 :
+         v = 'Tougué';
+         break;
+      case 34 :
+         v = 'Yomou';
+         break;
+
+   }
+   // $('#resultats .toutsec .tout .soustitle a.last').html(v);
+   //alert(v);
+   return v;
+}
+ <select id="ville" class="last" name="ville">
+                                    <option value="1">Conakry</option>
+                                    <option value="2">Beyla</option>
+                                    <option value="3">Boffa</option>
+                                    <option value="4">Boké</option>
+                                    <option value="5">Coyah</option>
+                                    <option value="6">Dabola</option>
+                                    <option value="7">Dalaba</option>
+                                    <option value="8">Dinguiraye</option>
+                                    <option value="9">Dubréka</option>
+                                    <option value="10">Faranah</option>
+                                    <option value="11">Forékariah</option>
+                                    <option value="12">Fria</option>
+                                    <option value="13">Gaoual</option>
+                                    <option value="14">Guékédou</option>
+                                    <option value="15">Kankan</option>
+                                    <option value="16">Kérouané</option>
+                                    <option value="17"> Kindia</option>
+                                    <option value="18">Kissidougou</option>
+                                    <option value="19">Koubia</option>
+                                    <option value="20">Koundara</option>
+                                    <option value="21">Kouroussa</option>
+                                    <option value="22">Labé</option>
+                                    <option value="23">Lelouma</option>
+                                    <option value="24">Lola</option>
+                                    <option value="25">Macenta</option>
+                                    <option value="26">Mali</option>
+                                    <option value="27">Mamou</option>
+                                    <option value="28">Mandiana</option>
+                                    <option value="29">N'Zérékoré</option>
+                                    <option value="30">Pita</option>
+                                    <option value="31">Siguiri</option>
+                                    <option value="32">Télimélé</option>
+                                    <option value="33">Tougué</option>
+                                    <option value="34">Yomou</option>
+                                 </select>

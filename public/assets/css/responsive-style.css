@@ -1,0 +1,536 @@
+/* 
+
+    Document   : responsive-style
+
+    Created on : 19 déc. 2013, 12:31:26
+
+    Author     : Koultoumy
+
+    Description:
+
+        Purpose of the stylesheet follows.
+
+*/
+
+@media (min-width: 1200px){.container {width: 1005px;}}
+
+#top-line{height: 12px;background-color:#AAD932;}
+
+header{background: url(../img/guinee.png) no-repeat;padding: 0px !important; min-height: 166px !important;}
+
+.logo{float: left;margin-top: 3px;}
+
+header nav{float: right !important;}
+
+nav .nav .spane{height: 28px;width: 20px; background: url('../img/navleft.png') no-repeat;}
+
+nav .nav{ border: none; margin-right:0px; float: right;}
+
+nav .nav li {padding-right: 3px;background: #688E0A;}
+
+nav .nav li a{ font: bold 14px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;text-decoration: none;color: #FFF;padding: 4px 8px; border-radius: 0px;}
+
+nav .nav li a:hover{ background: #AAD932;}
+.page_accueil #page_accueil,.page_cvtek #page_cvtek,.page_offres #page_offres,.page_contact #page_contact{background: #AAD932;/* border-color: #eeeeee #eeeeee #dddddd; */}
+header #recheform{float: right !important; margin: 0px; padding: 0px;}
+
+header #recheform form select{height: 33px; border-color: #fff;width: 30%; display: inline}
+
+header #recheform form #motcle{width: 45% !important; display: inline;margin-right: 2px;}
+
+header #recheform .btn{margin-left: 5px;}
+
+header #recheform h3 {margin-bottom: 15px;font: bold 22px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688E0A;float: right;text-transform: uppercase;background: url("../img/rech.png") 1px 0 no-repeat;padding-left: 40px;width: 83%;padding-right: 0px;margin-right: 32px;}
+
+.alljobs {font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;text-decoration: none;}
+.accueil a{font:bold 18px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif !important;color:#688E0A ;}
+#mainfeaturecont #video{ margin-right: 0px;}
+
+#mainfeaturecont{padding:8px;width: 100%;margin-left: 0px;}
+
+#mainfeaturecont #sidebar .tout .astuce .imgcont{float: left;width: 35%;}
+
+#mainfeaturecont #sidebar .tout .astuce .textimg{float: left;width: 60%;}
+
+#mainfeaturecont #sidebar .tout .astuce .imgcont img{float: left;max-width: 90px; margin-right: 10px;}
+
+#mainfeaturecont #sidebar{background:url("../img/slide_bgd.png") left top no-repeat;}
+
+#mainfeaturecont #sidebar .tout .astuce .textimg a{float:left;font: 14px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #1a1a1a;text-decoration: none;}
+
+#video .slidetext{float: left;max-width: 100%;margin-top: 6px;}
+
+#video .slidetext .plus{background: url("../img/slider_bot.png") no-repeat scroll 0 0 transparent;color: white;float: left;font: bold 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;height: 20px;margin-right: 10px;padding-right: 4px;padding-top: 1px;text-align: center;text-transform: uppercase;width:30%;}
+
+#video .slidetext p {float: left;max-width: 66%;}
+
+#video .slidetext p a{font: bold 14px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: black;float: left;}
+
+.offres{float: left;margin: 0px;width: 49%; }
+
+.offres .text{ float: left;  }
+
+.offres h5{ float: left; height: 45px; overflow: hidden;}
+
+.offres h5 a {color: #688E0A;font:12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif ;text-transform: uppercase;}
+
+.offres .text a {color: #000;font:12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif ;}
+
+#right {float:left;margin-left: 0px;padding-left: 25px;} 
+
+#right .connexion{margin-bottom: 0px;}
+
+#right .connexion .espace_connect{ margin-bottom: -10px;padding-left: 0px;}
+
+#right .connexion .espace_connect .space{background: #688e0a;padding: 8px 10px;border-bottom: 1px solid #587909;}
+
+#right .connexion .espace_connect .space a{font:bold 14px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;text-decoration: none;}
+
+#right .connexion .espace_connect .tabconnect{margin-left: 0px;width: 104.9%;}
+
+#right .connexion .espace_connect .space.one {background: #aad932;}
+
+#right .connexion .espace_connect .onespace{padding-left: 0px; padding-right: 0px;} 
+
+#right .connexion .espace_connect .space.two:hover{background:#aad932 ;}
+
+#right .connexion .espace_connect .space.one a{color: #688e0a;height: 30px;overflow: hidden;}
+
+#right .connexion .espace_connect .welc{float:left;background: #aad932;padding-left: 8px ; height: 36px; overflow: hidden; }
+
+#right .connexion .espace_connect .welc a{font:bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;text-decoration: none;} 
+
+#right .connexion .espace_connect .quit{float:left;background: #688e0a;padding: 8px 10px;height: 36px;text-align: center;}
+
+#right .connexion .espace_connect .quit a{font:bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;text-decoration: none;} 
+
+#right .connexion .form input.text{font: 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #8ebf16;border: 0;background: #516f08;}
+
+#right .connexion .form input#email{width: 100%;margin-top: 10px;}
+
+#right .connexion .form input#pwd{width: 100%; margin-top: 10px;}
+
+#right .connexion .form #go{padding: 6px;margin-top: 10px;}
+
+#right .connexion .form{background:#688e0a;padding: 6px 10px 6px 9px;float:left;}
+
+#right .connexion .form p{padding-left: 24px;padding-top: 7px;color: white;}
+
+#right .connexion .form p a{font:bold 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;text-decoration: none;} #right .connexion .form p a:hover{text-decoration: underline;}
+
+.bloc .toutsection {border: 1px solid #bcbcbc; padding: 0px; }
+
+.bloc .toutsection .tout{float: left;padding: 8px 0;border-bottom: 1px solid #bcbcbc;width: 100%;margin-left: 0px;}
+
+.bloc .toutsection .tout .imgcont{width: 35px;margin-right: 20px;float: left;}
+
+.bloc .toutsection .tout .textcont .title{float: left;margin-top: 0px !important;}
+
+.bloc .toutsection .tout .textcont .title a{font: 18px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #84b210;text-decoration: none;}
+
+.bloc .toutsection .tout .textcont .title a span{font: bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;display: block;}
+
+.bloc .toutsection .tout .textcont .title a:hover{text-decoration: underline;} .bloc .toutsection .tout .textcont .text a:hover{text-decoration: underline;}
+
+.bloc .newsletter{padding-top: 10px;float: left;padding: 5px 0;padding-left: 10px;}
+
+.bloc .newsletter h4{font:bold 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;text-align: center;text-transform: uppercase;width: 89%;margin-bottom: 9px;}
+
+.bloc .newsletter input.text{width: 70%; display: inline;font: 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #353535;padding: 4px 0;padding-left: 5px;}
+
+.bloc .newsletter input#valider{height: 35px;font:bold 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #4b4b4b;}
+.populaires .titre{width: 100%;background:url("../img/actu_bgd.gif") repeat-x;padding-bottom: 5px;font:bold 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;text-transform: uppercase;text-align: center;color: white;padding-top: 5px;}
+
+.populaires .toutsection{border: none;padding-top: 0;}
+
+.populaires .toutsection .tout {border-bottom: 1px dashed #cccccc;padding-left: 0;}
+
+.populaires .toutsection .tout.last{border-bottom: 0;padding-bottom: 0;}
+
+.populaires .toutsection .tout.first{padding-top: 10px;padding-bottom: 10px;}
+
+.populaires .toutsection .tout .imgcont{width: 74px;margin-right: 5px;padding: 3px;border: 1px solid #ccc;}
+
+.populaires .toutsection .tout .imgcont img{float: left;}
+
+.populaires .toutsection .tout .textcont{}
+
+.populaires .toutsection .tout .textcont .title{}
+
+.populaires .toutsection .tout .textcont .title a {color: #000000;font:bold 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;}
+
+.follow{float: left;margin-left: 0px;}
+
+.follow p{text-align: center;text-transform: uppercase;font: 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: black;padding: 5px 0;}
+
+.follow span{float: left;width: 36px;height: 35px;margin-right: 2px;}
+
+#footcont {background:url("../img/footbgd.png") repeat-x;height:88px;margin: 0px;margin-top: 10px;}
+
+#footcont .footer{margin: auto;width: 80%;padding-top: 10px;float: right; margin-right: 50px;}
+
+#footcont .footer ul{float: left;width: 100%;margin-right: 25px;}
+
+#footcont .footer ul li{display: block !important;}
+
+#footcont .footer ul li.nl {background:url("../img/fan.png")  no-repeat;padding-left: 25px;}
+
+#footcont .footer ul li.fb {background:url("../img/fb.png")  no-repeat;padding-left: 25px;}
+
+#footcont .footer ul li a{font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #646464;text-decoration: none;}
+
+#footcont .footer ul li a:hover{text-decoration: underline;}
+
+#footcont .footer ul.fan li a{color: #156195;}
+.lemessage{width: 100%;font: 14px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif; margin-left: 10px; padding-bottom: 10px;}
+.copir{text-align: right;width: 100%; font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #646464;}
+
+@media (max-width: 1000px){#footcont {display: none;}.copir{text-align: center;}}
+
+.espace_int{padding-bottom: 20px;padding-left: 8px;border: 1px solid #bcbcbc;margin-bottom:0px;background:url("../img/form_bg.png") right top repeat-y;}
+
+.espace_int .filtre {margin-bottom: 13px;padding: 0px;}
+
+.espace_int .filtre ul{border: none;}
+
+.espace_int .filtre li{float:left;width: 32%;background:#F0F8FF;margin-bottom: 10px;margin-right: 4px;}
+
+.espace_int  .filtre li label{font: bold 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: black;padding-right: 5px;float: left;width: auto;margin: 8px 0 0 5px;}
+
+.espace_int  .filtre li select, .espace  .filtre li input{float: left;margin-bottom: 10px;padding: 4px;}
+
+.left{padding-top: 5px;}
+
+#left .espace .haut .left span{font-size: 16px;}
+
+.breadcrumb{color:#666;margin-left: 0px; font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;width: 93%;float: left;padding: 12px;margin-bottom: 25px;}
+
+.breadcrumb a{font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color:#688e0a ;}
+
+.listofres{float: left; } 
+
+.listofres .textcont{float: left;padding: 0px;}
+
+.listofres .tout{float: left;width: 103.3%;height: auto;border: 1px solid #dddddd;margin-bottom: 10px;padding:6px 0px 0px 6px;}
+
+.listofres .textcont .text{float: left;margin-bottom: 5px;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;}
+
+.listofres .textcont .text a{font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;margin-bottom: 5px;}
+
+.listofres .tout .text{width: 100%;margin-bottom: 5px;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;}
+
+.listofres .tout .textcont .text a{font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;margin-bottom: 5px;}
+
+.listofres .title{width: 100%;margin-bottom: 5px;}
+
+.listofres .title a{font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;text-transform: uppercase;}
+
+.listofres .soustitle{width: 100%;margin-bottom: 5px;float: left; margin-left: 0px;}
+
+.listofres .soustitle a{font: 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #e73b05;border-right: 1px solid #e73b05;float: left;padding: 0 5px;text-decoration: none;cursor: default;}
+
+.listofres .soustitle a.first{padding-left: 0;}
+
+.listofres .soustitle a.last{border: 0;}
+
+.listofres .tout .voir{float: right;height:27px; width: 75px;margin-right: 20px;background:url("../img/voirOffre.png") no-repeat ;padding: 0px;}
+
+.listofres .tout .voir a{width: 70px;text-align: center;float: left;color: white;font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;padding: 2px 0 0 2px;}
+
+
+
+.listcandidats .textcont{float: left;padding: 0px;}
+
+.listcandidats .tout{float: left;width: 98.5%;height: auto;border: 1px solid #dddddd;margin-bottom: 10px;padding:6px 0px 0px 6px;}
+
+.listcandidats .textcont .text{float: left;margin-bottom: 5px;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;}
+
+.listcandidats .textcont .text a{font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;margin-bottom: 5px;}
+
+.listcandidats .tout .text{width: 100%;margin-bottom: 5px;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;}
+
+.listcandidats .tout .textcont .text a{font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;margin-bottom: 5px;}
+
+.listcandidats .title{width: 100%;margin-bottom: 5px;}
+
+.listcandidats .title a{font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;text-transform: uppercase;}
+
+.listcandidats .soustitle{width: 100%;margin-bottom: 5px;float: left; margin-left: 0px;}
+
+.listcandidats .soustitle a{font: 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #e73b05;border-right: 1px solid #e73b05;float: left;padding: 0 5px;text-decoration: none;cursor: default;}
+
+.listcandidats .soustitle a.first{padding-left: 0;}
+
+.listcandidats .soustitle a.last{border: 0;}
+
+.listcandidats .tout .voir{float: right;height:27px; width: 75px;margin-right: 20px;background:url("../img/voirOffre.png") no-repeat ;padding: 0px;}
+
+.listcandidats .tout .voir a{width: 70px;text-align: center;float: left;color: white;font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;padding: 2px 0 0 2px;}
+
+#espace{padding: 0px; }
+
+.bot{margin-left: 0px;width: 100%;float: left;border: 1px solid #BCBCBC;margin-bottom: 15px;border-top: 0;box-shadow: 5px 5px 5px #888888;-moz-box-shadow: 5px 5px 5px #888888;-webkit-box-shadow:5px 5px 5px #888888;background:url("../img/botbg.png") repeat-x;}
+
+.bot li{background: url("../img/bot-bgd.png") left top no-repeat; height:44px ;padding-left: 25px;padding-top: 13px;float: left;}
+
+.bot li a{font: 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #5e5d5d;-webkit-text-stroke: 6px #5e5d5d;-webkit-text-fill-color: white;text-indent: -99999px;float: left;width: 140px;}
+
+.bot li a.one{background:url("../img/depotcv.png") no-repeat ;}
+
+.bot li a.two{background: url("../img/espaceC.png") no-repeat;}
+
+.bot li a.three{background:url("../img/espaceA.png") no-repeat;}
+
+.titre1{color: #688E0A;font-family:"Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif,Helvetica,sans-serif;font-size: 14px;font-weight: bold;margin-bottom: 15px;margin-top: 0.6em;text-transform: uppercase;}
+
+.errors {float: left;margin-bottom: 13px;}
+
+.errors li {font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #f13c3c;margin-bottom: 8px;}
+
+#jobs_detail{float: left; padding: 0px; }
+.detail_article{margin-top: -30px; }
+
+#jobs_detail p.postule{text-align: center;width: 135px;padding-top: 15px;margin-top: -6px;background:url("../img/btnEnregistrer.png") center 10px no-repeat;height: 45px;}
+
+#jobs_detail p.postule a{color: white;text-decoration: none;font:bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif}
+
+#jobs_detail p{color: #565656;font: 14px/1.4"Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif,Helvetica,sans-serif;margin-bottom: 10px;overflow: hidden;text-align: left;}
+
+#jobs_detail .noline, .noline tr,.noline td{border: none !important;}
+#jobs_detail .noline td {padding: 2px 8px 2px 8px!important;}
+#jobs_detail td .badge{border-bottom: 1px solid white !important;color: white; font:bold 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;}
+
+.smenu{float: left;font: 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;padding: 10px;}
+
+
+
+/* PAGE INSCRIPTION */
+
+
+
+#register .breadcrumb {width: 79%;float: left;font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;margin-bottom: 20px;}
+
+#register .breadcrumb a{color: #688e0a;margin-right: 5px;text-decoration: none;}
+
+#register .breadcrumb a:hover{text-decoration: underline;}
+
+#register  h2.last1{background-color: rgb(235, 240, 243);margin: 0px;font: 14px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;/* background:url("../img/cmpte_bgd.png") no-repeat ; */padding: 10px 50px 10px 15px;margin-bottom: 10px;}
+
+#register  h2{background-color: rgb(235, 240, 243);float: left;margin: 0px;font: 14px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;/* background:url("../img/cmpte_bgd.png") no-repeat ; */padding: 10px 50px 10px 15px;margin-bottom: 10px;}
+
+#register  h2 span{font: 16px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;display: block;}
+
+#register  p.description {float: right;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;background:url("../img/cmpte_descrp.png") 0 5px no-repeat ;padding-left: 10px;}
+
+#register .form{float: left;margin-top: 15px;}
+
+#register .form .formbox{float: left;}
+
+#register .form .formbox.right{float: right;}
+
+#register .form .formbox img{float: left;}
+
+#register .form .formbox .input{float: left;margin-bottom: 12px; margin-left: 0px; width: 70%;}
+
+#register .form .formbox .input label{font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;display: block;margin-bottom: 2px;}
+
+#register .form .formbox .input label span{font-size: 11px;display: block;margin-top: 2px;}
+
+#register .form .formbox .input input{ height: 30px;}
+
+#register .form .formbox .input select{padding: 5px;height: 28px;}
+
+#register .form #ok{background:url("../img/btnEnregistrer.png") 0 4px no-repeat;width: 132px; border: none;height: 36px;font: bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;}
+
+#register .form #ok2{background:url("../img/btnEnregistrer.png") 0 8px no-repeat;width: 138px;margin-top: 10px; border: none;height: 45px;font: bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;}
+
+#register .form .ok{float: left;text-align: center;width: 100%;}
+
+#login #register {background:url("../img/login_bgd.png") no-repeat right top ;}
+
+#login #register .text h2.last{background:url("../img/cpte_bgd.png") no-repeat ;width: 244px;} 
+
+.titles .stitle .fleche{margin-bottom: 5px;background:url("../img/fleche.png") left 3px no-repeat ;padding-left: 10px;}
+
+.titles ul li span{color: #688e0a ;font-weight: bold;}
+
+ .pwd{display: block;padding: 5px; text-align: center;width: 100%;margin-top: -18px;}
+
+ .pwd a{font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;padding-top: 10px;}
+
+.titles .ok{margin-top: 17px;}
+
+.titles .ok a{float: left;background:url("../img/creer_bgd.png") no-repeat;width: 152px;height: 46px;border: 0;font: bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;padding-top: 5px; text-align: center;}
+
+#left .espace_candidat{float: left; width: 100%; padding: 0px;}
+
+#left .espace_candidat .haut{float: right;width: 100%;margin-right: 0px;}
+
+#left .espace_candidat .haut .left{float: left;font: 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;padding: 10px;padding-left: 0px;}
+
+#left .espace_candidat .haut .left span {color:#688e0a ;font-weight: bold;}
+
+#left .espace_candidat .haut .right{float: left;background: #aad932;padding-top: 8px;} 
+
+#left .espace_candidat .haut .right ul li{border-right: 1px solid #fff;}
+
+#left .espace_candidat .haut .right ul li.last{border:0;margin-right: 0;padding-right: 0;}
+
+#left .espace_candidat .haut .right ul li a{font: 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;}
+
+#left .espace_candidat .top_eapace{width: 100%;margin-left: 0px;}
+
+#left .espace_candidat .top_eapace .nav-tabs{border: none;}
+
+#left .espace_candidat .top_eapace .menu_candidat{background: #aad932;}
+
+.espace_candidat .top_eapace .menu_candidat{float: left;background: #aad932;padding: 5px;}
+
+.espace_candidat .top_eapace .menu_candidat ul{width: 100%;}
+
+.espace_candidat .top_eapace .menu_candidat ul li{display: inline;}
+
+.espace_candidat .top_eapace .menu_candidat ul li.last a{border:0;margin-right: 0;padding-right: 0;}
+
+.espace_candidat .top_eapace .menu_candidat ul li a{font: 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;border-right: 1px solid #fff;float: left;padding:0 12px}
+
+.vert{color:#84b210}
+
+/*ROFIL CANDIDAT*/
+
+.formKJ {float: left;margin-right: 5px;padding: 0px;margin-left: 5px;}
+
+.formKJ .titrprof{color: #688E0A;font-size:13px;font-weight: bold;margin-top: 0.6em;font:bold 13px"Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;margin-left: 10px;}
+
+.formKJ fieldset {background: url("../img/bgd_form2.png") no-repeat scroll center bottom transparent; border: 0 none;font-size: 1.1em;margin: 0 0 5px;padding: 0 1em 1em;}
+
+.formKJ legend {background-color: #E3DFDF;color: #333333;font-size: 1.2em;padding: 0 0.4em;}
+
+.formKJ label {float: left;font-weight: bold;margin-right: 1em;padding-top: 0.8em;text-align: right;}
+
+.optgroup { float: left;}
+
+.formKJ .optgroup label {clear: none;display: inline;float: left;font-weight: normal;margin-right: 13px; text-align: left;width: auto;}
+
+.formKJ textarea, .formKJ input, .formKJ select {margin: 0.5em 0.5em 0 0;border: 1px solid #999;padding: 5px;}
+
+.formKJ textarea {border: 1px solid #666666;}
+
+.formKJ textarea:focus, .formKJ input[type="text"]:focus {border-color: #7D7D7D;}
+
+.formKJ select {width: 40%; background-color: #FFFFFF;color: #000000; padding: 0;padding: 5px;border: 1px solid #999;}
+
+.formKJ input[type="text"],.formKJ input[type="date"],.formKJ input[type="number"],
+
+.formKJ input[type="password"] {width: 40%; background-color: #F4F4F4;border-color: #999;border-left: 1px solid #999;border-style: solid;border-width: 2px 1px 1px;margin-bottom: 7px;}
+
+.formKJ input[type="text"]:disabled, .formKJ input[type="password"]:disabled, .formKJ textarea:disabled {background-color: #CCCCCC;}
+
+.formKJ input[type="submit"] {background-color: #CCCCCC;color: #333333;margin: 0.5em 0.5em 0 0;padding: 0.4em;}
+
+.formKJ input[type="checkbox"] {border: 0 none;color: #000000;width: 15px;}
+
+.formKJ input[type="radio"] {background-color: #FFFFFF;border: 0 none;color: #000000;margin-top: 6px;}
+
+.formKJ input, select, option, button, textarea, label {font-family: Arial,Helvetica,sans-serif;font-size: 11px;color: #666666;}
+
+.btnType1 {background:url("../img/btnEnregistrer.png") 0 4px no-repeat;height: 39px;border: 0;font: bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;margin-bottom: 10px; width: 132px; text-align: center; }
+
+.espace_int .espace_candidat .profil_candidat .toutsection{width: 100%;margin-left: 0px;}
+
+.espace_int .espace_candidat .profil_candidat .toutsection .titre{width: 100%;border-bottom: 1px solid #dddddd;float: left;margin-bottom: 5px;padding-left: 0px;}
+
+.espace_int .espace_candidat .profil_candidat .toutsection .titre a{font: bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;padding-left:10px;background:url("../img/cmpte_descrp.png") 0 5px no-repeat ;}
+
+.espace_int .espace_candidat .profil_candidat .text{width: 100%;padding: 0px;font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color:#666666;float: left;margin-bottom: 8px; }
+
+.espace_int .espace_candidat .profil_candidat .text p{width: 100%;margin-bottom: 5px;line-height: 18px;padding-left: 5px;}
+
+.espace_int .espace_candidat .profil_candidat .text .vert {padding-left: 5px;}
+
+.espace_int .espace_candidat .profil_candidat .text .vert li{color:#688e0a ;}
+
+.espace_int .espace_candidat .profil_candidat  ul li.cv{background:url("../img/cv.png") right 2px  no-repeat;padding-top: 21px;}
+
+.espace_int .espace_candidat .profil_candidat  ul li.alerte{background:url("../img/alerte.png") right 2px no-repeat;padding-top: 12px;}
+
+.espace_int .espace_candidat .profil_candidat .toutsection .titre .profil{background: url("../img/addprofil.png") no-repeat scroll right 0 transparent;margin-bottom: 0px;height: 28px;padding-top: 1px;text-align: center;width: 135px;}
+
+.espace_int .espace_candidat .profil_candidat .toutsection .titre .profil a{color: white;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;}
+
+.cvbtn{background:url("../img/btnEnregistrer.png") 0 4px no-repeat;width: 132px; border: none;height: 36px; text-align: center;padding-top: 8px; margin-left: 15px;}
+
+.cvbtn a{font: bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;padding-top: 5px;}
+
+#cvform{float: left;margin-bottom: 20px;margin-left: 18px;}
+
+#cvform #cv{width: 100%; margin-bottom: 5px;}
+
+#cvform #ok{width: 135px;cursor: pointer;}
+
+.espace_int .espace_candidat .profil_candidat  .photo { width: 100%}
+
+.espace_int .espace_candidat .profil_candidat  .photo p{width: 100%; font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color:#688E0A;margin-bottom: 2px; }
+
+.espace_int .espace_candidat .profil_candidat  .photo p a{color: black;font-style: normal;}
+
+.optimiser {float: left; margin-bottom: 2px;}
+
+.optimiser a{background:url("../img/btnbgd.png") no-repeat ;height: 28px;width:190px; ;text-align: center;padding-top: 2px;color: white;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;margin-right: -18px;float: right;margin-top: -18px;}
+
+.optimiser2 a{background:url("../img/btnbgd.png") no-repeat ;height: 28px;width:190px ;text-align: center;padding-top: 2px;color: white;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;margin-right: -18px;float: right;margin-top: -10px;}
+
+.candidatures h1{color: #688E0A;font-size:14px;font-weight: bold;margin-top: 0.6em;font-family:"Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif,Helvetica,sans-serif;margin-bottom: 20px;}
+
+.alert {float: left;color: #688E0A;font-weight: bold;font: 14px arial;}
+
+.candidatures .postcandidat  {width: 98%;border: 1px solid #dddddd;margin-bottom: 10px;padding: 6px 0px 0px 6px;}
+
+.candidatures .postcandidat  .textcont .text{float: left;margin-bottom: 5px;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;}
+
+.candidatures .postcandidat  .textcont .text a{font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;margin-bottom: 5px;}
+
+.candidatures .postcandidat  .title{float: left;margin-bottom: 5px;width: 100%;}
+
+.candidatures .postcandidat  .title a{font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;text-transform: uppercase;}
+
+.candidatures .postcandidat  .soustitle{float: left;margin-bottom: 5px;margin-left: 0px;width: 100%;}
+
+.candidatures .postcandidat  .soustitle a{font: 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #e73b05;border-right: 1px solid #e73b05;float: left;padding: 0 5px;text-decoration: none;cursor: default;}
+
+.candidatures .postcandidat  .soustitle a.first{padding-left: 0;}
+
+.candidatures .postcandidat .text{width: 100%;}
+
+.candidatures .postcandidat  .soustitle a.last{border: 0;}
+
+.entreprise{width: 100%;}
+.alaune a{font: bold 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a; text-transform: uppercase;}
+.entreprise a {font: bold 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;}
+.entreprise2{width: 100%;}
+
+.entreprise2 a {font: bold 18px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;}
+
+.formbox.photo .txtcont p span{color: #688E0A;font-weight: bold;}
+
+.formbox.photo .txtcont p{margin-bottom: 10px;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;}
+
+.formbox.photo .txtcont p.name{color: #688E0A;font-weight: bold;}
+
+.formbox.photo .input{margin-bottom: 5px!important;margin-top: 7px;}
+
+.slogans ul li {margin-bottom: 5px;background: url("../img/fleche.png") left 3px no-repeat;padding-left: 10px;}
+
+.slogans ul li a span {color: #688e0a;font-weight: bold;}
+
+.slogans ul li a {font: 14px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: black;}
+
+.updatepw{width: 70%;}
+
+.updatepw2{width: 70%; margin-left:12px;}
+
+#register form .updatepwd {background: url("../img/btnEnregistrer.png") 0 4px no-repeat;width: 138px;border: none;height: 36px;font: bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;}
+
+/*COMPTE RECRUTEUR*/
+
+h1#titrebig {font-family: "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688E0A;font-size: 14px;font-weight: bold;margin-top: 0.6em;margin-left: 10px;margin-bottom: 15px;}

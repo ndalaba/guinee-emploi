@@ -1,0 +1,22 @@
+#main{width: 1200px;}
+#main #top{width: 1200px;}
+#main #content{width: 1200px;}
+#main #content #left{width: 880px;}
+.interne #main #content #left .top{width: 880px;}
+.candidat #left .espace{width: 880px;}
+#main #content #left .top .head{width: 880px;}
+.form{float: left;width: 100%; margin-bottom: 20px;margin-top: 20px;}
+.formKJ label{width: 123px;}
+.formKJ fieldset{background: none;}
+.btnType1{margin-left: 110px;}
+#table_secteur{border-collapse: collapse;width: 99%;margin-top: 27px;}
+td,th{/* border: 1px solid #ccc; */padding: 2px; font-size: 15px;}
+#table_length{float:left;}
+.dataTables_length{width: 93px;float: left;}
+.dataTables_filter{width: 250px;float: left;}
+h2{text-align: center;}
+hr{width: 50%; margin: auto;}
+.dataTables_wrapper{float: left;}
+.dataTables_wrapper table{float: left;}
+.dataTables_info{float: left;}
+.bigtitle{width: 100%}

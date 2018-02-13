@@ -1,0 +1,84 @@
+.espace{width: 100%;padding-bottom: 20px;border: 1px solid #bcbcbc;margin-bottom:0px;float: left;background:url("../img/form_bg.png") right top repeat-y;}
+.espace .haut{width: 688px;float: left;}
+.espace .haut .left{float: left;width: 310px;font: 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;padding: 10px;}
+.espace .haut .left span {color:#688e0a ;font-weight: bold;}
+.espace .haut .right{float: left;width: 348px;background: #aad932;padding: 5px;}
+.espace .haut .right ul{}
+.espace .haut .right ul li{display: inline;}.espace .haut .right ul li.last a{border:0;margin-right: 0;padding-right: 0;}
+.espace .haut .right ul li a{font: 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;border-right: 1px solid #fff;float: left;padding:0 12px}
+.espace .bas{width: 688px;float: left;}
+.espace .bas .left{width: 405px;float: left;}
+.espace .bas .left .breadcrumb{color:#666;margin-left: 8px; font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;width: 93%;float: left;background:url("../img/breadcrumb.png") no-repeat;padding: 12px;margin-bottom: 25px;}
+.espace .bas .breadcrumb a{font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color:#688e0a ;}
+.espace .bas .left .toutsection{float: left;margin-left: 15px;}
+.espace .bas .toutsection .titre{border-bottom: 1px solid #dddddd;float: left;width: 280px;position: relative;margin-bottom: 5px;}
+.espace .bas .toutsection .titre a{font: bold 16px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;padding-left:10px;background:url("../img/cmpte_descrp.png") 0 5px no-repeat ;}
+.espace .bas .text{font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color:#666666;float: left;margin-bottom: 8px; }
+.espace .bas .text p{float: left;width: 340px;margin-bottom: 5px;line-height: 18px;padding-left: 5px;}
+.espace .bas .text .vert {padding-left: 5px;}
+.espace .bas .text .vert li{color:#688e0a ;}
+.espace .bas .right .text  p{width: 275px;font: 12px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color:#666666;}
+.espace .bas .right ul {margin-bottom: 20px;}
+.espace .bas .right ul li{font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color:#688e0a;margin-bottom: 5px;}
+.espace .bas .right ul li span{color: #666666;}
+.espace .bas  ul li.cv{background:url("../img/cv.png") right 2px  no-repeat;padding-top: 21px;}
+.espace .bas  ul li.alerte{background:url("../img/alerte.png") right 2px no-repeat;padding-top: 12px;}
+.espace .bas .toutsection .titre a.profil{background: url("../img/addprofil.png") no-repeat scroll right 0 transparent;color: white;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;height: 28px;padding-top: 1px;position: absolute;right: -46px;text-align: center;top: -5px;width: 123px;}
+
+.logged_recruter .menu .left{float: left;font: 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #666666;padding: 10px;}
+.logged_recruter .menu .left span {color:#688e0a ;font-weight: bold;}
+.logged_recruter .menu .right{float: left;background: #aad932;padding: 5px;}
+.logged_recruter .menu .right ul{width: 100%;}
+
+.logged_recruter .menu .right ul li{display: inline;}
+.logged_recruter .menu .right ul li.last a{border:0;margin-right: 0;padding-right: 0;}
+.logged_recruter .menu .right ul li a{font: 11px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;border-right: 1px solid #fff;float: left;padding:0 12px}
+
+.logged_recruter .body .toutsection{
+    list-style-type: none;
+    display: block;
+    padding: 0;
+    width: 100%;
+}
+
+.logged_recruter .body .toutsection .titre{
+    border-bottom: 1px solid #dddddd;
+    float: left;
+    width: 100%;
+    position: relative;
+    margin-bottom: 5px;
+}
+.logged_recruter .body .toutsection .titre a{font: bold 16px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: #688e0a;padding-left:10px;background:url("../img/cmpte_descrp.png") 0 5px no-repeat ;}
+.logged_recruter .body .toutsection .titre a.profil{background: url("../img/addprofil.png") no-repeat scroll right 0 transparent;color: white;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;height: 28px;padding-top: 1px;position: absolute;right: -5px;text-align: center;top: -5px;width: 123px;}
+.optimiser {float: left;width: 280px;}.optimiser a{background:url("../img/btnbgd.png") no-repeat ;height: 28PX;width:190px ;text-align: center;padding-top: 2px;color: white;font: 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;margin-right: 10px;float: right;margin-top: -8px;}
+.btnType1 {background:url("../img/btnEnregistrer.png") 0 4px no-repeat;width: 133px;height: 36px;border: 0;font: bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;margin-bottom: 10px; margin-left: 242px;}
+
+.form_title{color: #688E0A;font-size:13px;font-weight: bold;margin-top: 0.6em;font:bold 13px"Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;}
+.profil form h2{color: #688E0A;font-size:13px;font-weight: bold;margin-top: 0.6em;font:bold 13px"Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;margin-left: 10px;}
+.profil form fieldset {background: url("../img/bgd_form2.png") no-repeat scroll center bottom transparent; border: 0 none;font-size: 1.1em;margin: 0 0 5px;padding: 0 1em 1em;}
+
+#ok{background:url("../img/btnEnregistrer.png") 0 4px no-repeat;width: 133px;height: 36px;border: 0;font: bold 15px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: white;}
+.ok{float: left;text-align: center;width: 100%;}
+
+ul li a, a{
+    color: #333333;
+    font-size: 12px;
+}
+
+#register{
+    background: url("../img/login_bgd.png") no-repeat right top;
+}
+
+#register ul{
+    list-style-type: none;
+    padding: 0;
+    width: 260px;
+}
+#register ul li{width: 250px;margin-bottom: 5px;background:url("../img/fleche.png") left 3px no-repeat ;padding-left: 10px;}
+#register ul li a{font: 14px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: black;width: 260px;}
+#register ul li a span{color: #688e0a;font-weight: bold;}
+
+.espace .filtre {float: right;width: 100%;margin-bottom: 13px;}
+.espace .filtre li{float:left;list-style: none;background:url("../img/li_bgd.png") no-repeat ;width: 222px;height: 34px;margin-bottom: 10px;margin-right: 4px;}
+.espace  .filtre li label{font: bold 13px "Segoe UI","Segoe","Segoe WP","Tahoma","Verdana","Arial", sans-serif;color: black;padding-right: 5px;float: left;width: auto;margin: 8px 0 0 5px;}
+.espace  .filtre li select, .espace  .filtre li input{width: 140px;float: left;margin-bottom: 10px;padding: 4px;margin-top: 2px;}

@@ -1,0 +1,120 @@
+<?php defined('COREPATH') or exit('No direct script access allowed'); ?>
+
+Warning - 2013-06-18 10:25:03 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:12:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:12:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:13:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:14:02 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:14:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Error - 2013-06-18 11:14:04 --> Error - SQLSTATE[42S22]: Column not found: 1054 Unknown column 'undefined' in 'where clause' with query: "SELECT *,candidat.id AS id,candidat.experience AS experience,candidat.ajout AS ajout FROM candidat 
+        JOIN candidats_offres ON candidats_offres.candidat_id=candidat.email 
+        JOIN offre ON candidats_offres.offre_id=offre.id
+        WHERE offre.id=9  AND candidat.ajout < undefined ORDER BY candidat.ajout DESC LIMIT 0,20" in C:\xampp\htdocs\jobsite\fuel\core\classes\database\pdo\connection.php on line 137
+Warning - 2013-06-18 11:14:11 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:14:11 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:14:22 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:14:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:14:26 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:14:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Error - 2013-06-18 11:14:30 --> 8 - Undefined variable: check_postulation in C:\xampp\htdocs\jobsite\fuel\app\views\offre\detail_offre.php on line 118
+Warning - 2013-06-18 11:30:25 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Error - 2013-06-18 11:30:25 --> 8 - Use of undefined constant id - assumed 'id' in C:\xampp\htdocs\jobsite\fuel\app\classes\model\candidat.php on line 37
+Warning - 2013-06-18 11:30:46 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:31:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:31:18 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:31:43 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:31:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:33:09 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:34:31 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:35:33 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:36:42 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:37:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:50:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 11:55:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:06:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:06:53 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:09:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:10:47 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:11:12 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:11:25 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:12:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:12:52 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:13:30 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:13:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:14:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:15:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:16:18 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:16:42 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:17:17 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:17:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:22:01 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:24:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:25:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:26:04 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:27:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:29:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:30:43 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 12:31:39 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:02:34 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:03:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:04:50 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:05:46 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:06:43 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:07:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:08:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:08:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:09:36 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:10:22 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:12:47 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:13:09 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:14:46 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:15:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:16:00 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:17:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:18:51 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:20:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:20:58 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:20:58 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:21:00 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:21:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Error - 2013-06-18 13:21:06 --> Error - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 with query: "SELECT * from candidats_offres WHERE candidat_id="" and offre_id=" in C:\xampp\htdocs\jobsite\fuel\core\classes\database\pdo\connection.php on line 137
+Warning - 2013-06-18 13:21:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:21:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:21:41 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:21:46 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:21:46 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:21:48 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:21:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:21:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 13:59:12 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Error - 2013-06-18 13:59:12 --> Error - SQLSTATE[42S02]: Base table or view not found: 1146 Table 'dbjobsite.postuler_offre' doesn't exist with query: "SELECT `t0`.`id` AS `t0_c0`, `t0`.`titre` AS `t0_c1`, `t0`.`pays` AS `t0_c2`, `t0`.`type_contrat` AS `t0_c3`, `t0`.`fonction_id` AS `t0_c4`, `t0`.`experience` AS `t0_c5`, `t0`.`description` AS `t0_c6`, `t0`.`fichier` AS `t0_c7`, `t0`.`date_debut` AS `t0_c8`, `t0`.`date_fin` AS `t0_c9`, `t0`.`ville` AS `t0_c10`, `t0`.`recruteur_id` AS `t0_c11`, `t0`.`vues` AS `t0_c12` FROM `offre` AS `t0` JOIN `postuler_offre` AS `t0_through` ON (`t0_through`.`offre_id` = `t0`.`id`) WHERE `t0_through`.`email` = 'dmn@guinee-webdev.com'" in C:\xampp\htdocs\jobsite\fuel\core\classes\database\pdo\connection.php on line 137
+Warning - 2013-06-18 14:00:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:00:34 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:00:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:00:40 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Error - 2013-06-18 14:00:40 --> Error - Call to undefined method Orm\Query::save() in C:\xampp\htdocs\jobsite\fuel\app\classes\controller\candidat.php on line 266
+Warning - 2013-06-18 14:01:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:01:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:02:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:02:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:02:25 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:57:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:57:44 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:57:47 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:59:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 14:59:33 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 15:50:34 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 15:50:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Error - 2013-06-18 15:50:56 --> Error - SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 1 with query: "SELECT * from candidats_offres WHERE candidat_id="3" and offre_id=" in C:\xampp\htdocs\jobsite\fuel\core\classes\database\pdo\connection.php on line 137
+Warning - 2013-06-18 15:53:03 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 15:53:16 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Error - 2013-06-18 15:53:16 --> 2 - Illegal offset type in C:\xampp\htdocs\jobsite\fuel\packages\email\classes\email\driver.php on line 315
+Warning - 2013-06-18 15:53:16 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 15:55:17 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 15:55:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 15:57:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 15:57:31 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 15:57:34 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 15:57:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 15:59:32 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+Warning - 2013-06-18 21:21:48 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
